@@ -1,0 +1,1560 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7229092301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User should verify the job search result using different data provided",
+        "description": "",
+        "id": "home-page-test;user-should-verify-the-job-search-result-using-different-data-provided;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 825185800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 161925200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomeTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 385110500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I accept cookies",
+            "match": {
+              "location": "HomeTestSteps.iAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 542388801,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter job title \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170156201,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter Location \"Harrow,Greater London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harrow,Greater London",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeTestSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222611100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select distance \"5 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149535700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "HomeTestSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219874000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter salaryMin \"30000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30000",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127052500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter salaryMax \"600000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "600000",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140964100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select salaryType \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeTestSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136069999,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select jobType \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeTestSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153902301,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "HomeTestSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2827815999,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I  verify the result \"Permanent Tester jobs in Harrow\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Tester jobs in Harrow",
+                  "offset": 22
+                }
+              ],
+              "location": "HomeTestSteps.iVerifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@regression"
+          },
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3112683300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User should verify the job search result using different data provided",
+        "description": "",
+        "id": "home-page-test;user-should-verify-the-job-search-result-using-different-data-provided;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 819695799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45301,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomeTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 432759200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I accept cookies",
+            "match": {
+              "location": "HomeTestSteps.iAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 699507499,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter job title \"QA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196524901,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter Location \"Kent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kent",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeTestSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264253599,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select distance \"10 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283117701,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "HomeTestSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248250500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter salaryMin \"25000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25000",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150803500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter salaryMax \"500000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500000",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157798799,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select salaryType \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeTestSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155553600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select jobType \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeTestSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170997000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "HomeTestSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4404997700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I  verify the result \"Permanent Qa jobs in Kent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Qa jobs in Kent",
+                  "offset": 22
+                }
+              ],
+              "location": "HomeTestSteps.iVerifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@regression"
+          },
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4081063901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User should verify the job search result using different data provided",
+        "description": "",
+        "id": "home-page-test;user-should-verify-the-job-search-result-using-different-data-provided;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 753136399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 60300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomeTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 393749301,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I accept cookies",
+            "match": {
+              "location": "HomeTestSteps.iAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 634864101,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter job title \"Nurse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nurse",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117306001,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter Location \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeTestSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204903000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select distance \"5 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214350400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "HomeTestSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209315101,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter salaryMin \"20000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20000",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128664200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter salaryMax \"400000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400000",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140100301,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select salaryType \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeTestSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168884700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select jobType \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeTestSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224913900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "HomeTestSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4859136199,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I  verify the result \"Permanent Nurse jobs in London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Nurse jobs in London",
+                  "offset": 22
+                }
+              ],
+              "location": "HomeTestSteps.iVerifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@regression"
+          },
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3778009900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "User should verify the job search result using different data provided",
+        "description": "",
+        "id": "home-page-test;user-should-verify-the-job-search-result-using-different-data-provided;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 776852199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23699,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomeTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 337974201,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I accept cookies",
+            "match": {
+              "location": "HomeTestSteps.iAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 555601200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter job title \"Accountant\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Accountant",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150130201,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter Location \"Harrow,Greater london\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harrow,Greater london",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeTestSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199672899,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select distance \"10 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130576900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "HomeTestSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209376800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter salaryMin \"30000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30000",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123273800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter salaryMax \"500000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500000",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132227301,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select salaryType \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeTestSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130256900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select jobType \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeTestSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148392600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "HomeTestSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4906534000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I  verify the result \"Permanent Accountant jobs in Harrow\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Accountant jobs in Harrow",
+                  "offset": 22
+                }
+              ],
+              "location": "HomeTestSteps.iVerifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@regression"
+          },
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3114454200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User should verify the job search result using different data provided",
+        "description": "",
+        "id": "home-page-test;user-should-verify-the-job-search-result-using-different-data-provided;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 805750700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22201,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomeTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 322241200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I accept cookies",
+            "match": {
+              "location": "HomeTestSteps.iAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 609381799,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter job title \"Manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manager",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204910400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter Location \"Watford, Hertfordshire\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Watford, Hertfordshire",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeTestSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110126999,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select distance \"15 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264842901,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "HomeTestSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150967200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter salaryMin \"20000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20000",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121770200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter salaryMax \"300000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300000",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150755901,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select salaryType \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeTestSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132399800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select jobType \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeTestSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159672700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "HomeTestSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5121331300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I  verify the result \"Permanent Manager jobs in Watford\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Manager jobs in Watford",
+                  "offset": 22
+                }
+              ],
+              "location": "HomeTestSteps.iVerifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@regression"
+          },
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2738274500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "User should verify the job search result using different data provided",
+        "description": "",
+        "id": "home-page-test;user-should-verify-the-job-search-result-using-different-data-provided;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 803139200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomeTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 384787600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I accept cookies",
+            "match": {
+              "location": "HomeTestSteps.iAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490020099,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter job title \"Test Engineer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test Engineer",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228057501,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter Location \"Luton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Luton",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeTestSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208941199,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select distance \"10 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144451799,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "HomeTestSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243584101,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter salaryMin \"30000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30000",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121402700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter salaryMax \"600000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "600000",
+                  "offset": 19
+                }
+              ],
+              "location": "HomeTestSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126148300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select salaryType \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 21
+                }
+              ],
+              "location": "HomeTestSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124385900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select jobType \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeTestSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150480400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "HomeTestSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5002338300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I  verify the result \"Permanent Test Engineer jobs in Luton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Test Engineer jobs in Luton",
+                  "offset": 22
+                }
+              ],
+              "location": "HomeTestSteps.iVerifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@regression"
+          },
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Test",
+    "description": "As a user I want to verify the job search result using different data sets",
+    "id": "home-page-test",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  }
+]
